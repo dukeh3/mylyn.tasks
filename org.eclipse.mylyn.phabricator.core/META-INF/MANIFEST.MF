@@ -11,10 +11,10 @@ Require-Bundle: org.eclipse.core.runtime,
  org.eclipse.mylyn.commons.xmlrpc;bundle-version="[3.8.0,4.0.0)",
  org.apache.xmlrpc;bundle-version="[3.0.0,4.0.0)"
 Bundle-ActivationPolicy: lazy
-Export-Package: org.eclipse.mylyn.internal.trac.core;x-friends:="org.eclipse.mylyn.trac.ui",
- org.eclipse.mylyn.internal.trac.core.client;x-friends:="org.eclipse.mylyn.trac.ui",
- org.eclipse.mylyn.internal.trac.core.model;x-friends:="org.eclipse.mylyn.trac.ui",
- org.eclipse.mylyn.internal.trac.core.util;x-friends:="org.eclipse.mylyn.trac.ui"
+Export-Package: org.eclipse.mylyn.internal.trac.core;x-friends:="org.eclipse.mylyn.phabricator.ui",
+ org.eclipse.mylyn.internal.trac.core.client;x-friends:="org.eclipse.mylyn.phabricator.ui",
+ org.eclipse.mylyn.internal.trac.core.model;x-friends:="org.eclipse.mylyn.phabricator.ui",
+ org.eclipse.mylyn.internal.trac.core.util;x-friends:="org.eclipse.mylyn.phabricator.ui"
 Bundle-Activator: org.eclipse.mylyn.internal.trac.core.TracCorePlugin
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-Localization: plugin
