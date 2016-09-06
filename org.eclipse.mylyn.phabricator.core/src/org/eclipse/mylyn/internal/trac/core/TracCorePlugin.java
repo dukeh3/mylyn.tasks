@@ -34,7 +34,7 @@ import org.osgi.framework.BundleContext;
  */
 public class TracCorePlugin extends Plugin {
 
-	public static final String ID_PLUGIN = "org.eclipse.mylyn.trac.core"; //$NON-NLS-1$
+	public static final String ID_PLUGIN = "org.eclipse.mylyn.phabricator.core"; //$NON-NLS-1$
 
 	public static final String ENCODING_UTF_8 = "UTF-8"; //$NON-NLS-1$
 
