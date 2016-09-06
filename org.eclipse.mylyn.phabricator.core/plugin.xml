@@ -2,7 +2,7 @@
 <?eclipse version="3.4"?>
 <plugin>
    <extension
-         id="org.eclipse.mylyn.trac.repository"
+         id="org.eclipse.mylyn.phabricator.repository"
          name="%repository.name"
          point="org.eclipse.mylyn.tasks.ui.repositories">
       <connectorCore
